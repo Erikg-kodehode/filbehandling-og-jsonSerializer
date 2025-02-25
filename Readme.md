@@ -152,7 +152,7 @@ Response:
 
 ## Contributors
 
-- **Your Name** – Developer
+- **Erik** – Developer
 
 ---
 

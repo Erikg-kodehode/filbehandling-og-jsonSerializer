@@ -5,5 +5,12 @@
     "Age": 34,
     "City": "Sandefjord",
     "Country": "Norge"
+  },
+  {
+    "id": 2,
+    "Name": "solskjær botteknott",
+    "Age": 35,
+    "City": "Tromso",
+    "Country": "Norge"
   }
 ]
