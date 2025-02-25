@@ -106,3 +106,11 @@ app.delete("/people/:id", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server kjører på http://localhost:${PORT}`);
 });
+
+process.addListener("SIGINT", async () => {
+  console.log("SIGTERM signal mottatt.");
+  setTimeout(() => {
+    console.log("Avslutter prosessen...");
+    process.exit(0);
+  }, 5000);
+});
