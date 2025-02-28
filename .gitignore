@@ -1,2 +1,62 @@
-bin
-obj
+# 🛑 General OS-specific files
+.DS_Store
+Thumbs.db
+
+# 🛑 Node.js specific
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# 🛑 Logs & Temp Files
+logs/
+*.log
+*.tmp
+debug.log
+error.log
+server.log
+nohup.out
+
+# 🛑 C# Build Artifacts
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.so
+*.dylib
+*.log
+*.cache
+*.csproj.user
+*.vs/
+.vscode/
+
+# 🛑 .NET Dependencies
+project.lock.json
+*.nuget/
+*.nupkg
+*.snupkg
+
+# 🛑 Data Files
+assets/data.json
+!assets/data.example.json  # (Keep an example file for reference)
+*.db
+*.sqlite
+*.sqlite3
+dump.rdb
+*.bak
+
+# 🛑 Environment & Secrets (Security Best Practices)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# 🛑 Miscellaneous
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
